@@ -1,0 +1,48 @@
+# Core Deep Learning
+torch==2.1.0
+torchvision==0.16.0
+pytorch-lightning==2.1.0
+torchmetrics==1.2.0
+
+# Image Processing & Computer Vision
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78  # For dnn_superres module
+pillow==10.0.1
+scikit-image==0.22.0
+albumentations==1.3.1
+imageio==2.31.6
+kornia==0.7.2
+
+# Model Architectures
+timm==0.9.12
+einops==0.7.0
+
+# Quality Metrics
+piq==0.8.0
+lpips==0.1.4
+
+# Visualization & UI
+streamlit==1.28.0
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
+
+# Scientific Computing
+numpy==1.26.0
+scipy==1.11.3
+pandas==2.1.2
+tqdm==4.66.1
+
+# Experiment Tracking (Optional)
+wandb==0.16.0
+tensorboard==2.14.1
+
+# Geospatial Processing (Optional)
+pyorbital==1.7.0
+rasterio==1.3.11
+geopandas==0.14.0
+shapely==2.0.2
+
+# System Dependencies
+protobuf==4.25.3
+typing-extensions==4.8.0
